@@ -1,0 +1,16 @@
+@import './common';
+@import './variables';
+
+// Mixins
+@mixin button {
+    background-image: linear-gradient(to bottom right, $gr-cyan 0%, $gr-blue 90%);
+    border: none;
+    border-radius: 1.1rem;
+    color: $white;
+    font-size: .7rem;
+    padding: .7rem 3.5rem;
+    -webkit-border-radius: 1.1rem;
+    -moz-border-radius: 1.1rem;
+    -ms-border-radius: 1.1rem;
+    -o-border-radius: 1.1rem;
+}

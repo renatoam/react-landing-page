@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Railway', sans-serif;
+  src: url("/src/fonts/Raleway-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Railway', sans-serif;
+  src: url("/src/fonts/Raleway-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'OpenSans', sans-serif;
+  src: url("/src/fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans', sans-serif;
+  src: url("/src/fonts/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #1c2431;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #1c2431;
+}
+
+.intro {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner {
+  max-width: calc(1440px * 0.7);
+  width: 50vw;
+}
+
+.banner__image {
+  width: 100%;
+}
+
+.presentation {
+  color: white;
+  font-family: 'OpenSans';
+  max-width: 40vw;
+}
+
+.presentation__title {
+  color: white;
+}
+
+.start {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#65e2d9), color-stop(90%, #339ecc));
+  background-image: linear-gradient(to bottom right, #65e2d9 0%, #339ecc 90%);
+  border: none;
+  border-radius: 1.1rem;
+  color: white;
+  font-size: .7rem;
+  padding: .7rem 3.5rem;
+  -webkit-border-radius: 1.1rem;
+  -moz-border-radius: 1.1rem;
+  -ms-border-radius: 1.1rem;
+  -o-border-radius: 1.1rem;
+}
+/*# sourceMappingURL=intro.css.map */

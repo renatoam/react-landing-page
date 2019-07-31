@@ -1,0 +1,33 @@
+@import './../../scss/common';
+@import './../../scss/components';
+@import './../../scss/fonts';
+@import './../../scss/variables';
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    max-width: calc(#{$desktop} * 0.7);
+    width: 50vw;
+
+    &__image {
+        width: 100%;
+    }
+}
+
+.presentation {
+    color: $white;
+    font-family: 'Railway', sans-serif;
+    max-width: 40vw;
+
+    &__title {
+        color: $white; 
+    }
+}
+
+.start {
+    @include button;
+}
